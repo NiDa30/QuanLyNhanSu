@@ -2,15 +2,10 @@
 {
     partial class Form1
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
+        
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+       
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -42,11 +37,19 @@
             // label1
             // 
             this.label1.AutoSize = true;
+<<<<<<< HEAD
+            this.label1.Location = new System.Drawing.Point(248, 195);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(101, 16);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Text pull project";
+=======
             this.label1.Location = new System.Drawing.Point(270, 190);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(115, 16);
             this.label1.TabIndex = 1;
             this.label1.Text = "text thử pull project";
+>>>>>>> 8bcee89a09376dedcecfff44074c9122951009dc
             // 
             // Form1
             // 
